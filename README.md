@@ -27,14 +27,14 @@ Kemudian pada data numerik, dilakukan standarisasi dengan menggunakan library sk
 
 8. Feature Encoding
 Feature Encoding dilakukan pada feature yang bersifat kategorik. Pada tahap ini kami melakukan feature encoding pada feature-feature beriktu : <br>
-MIS_Status 
-CHGOFF = 1 dan PIF = 0  
-RevLinCr
-Yes = 1 dan No = 0
-LowDoc
-Yes = 1 dan No = 0
-UbanRural
-Yes = 1 dan No = 0
+MIS_Status <br>
+CHGOFF = 1 dan PIF = 0   <br>
+RevLinCr  <br>
+Yes = 1 dan No = 0  <br>
+LowDoc  <br>
+Yes = 1 dan No = 0  <br>
+UbanRural  <br>
+Yes = 1 dan No = 0  <br>
 
 10. Handle Class Imbalance
 Pada dataset ini terlihat bahwa pada feature MIS_Status imbalance. Pada tahap ini, kami belum melakukan oversampling/undersampling dikarenakan kami ingin mengidentifikasi terlebih dahulu pada saat pemodelan machine learning dan akan dilakukan evaluasi setelah pemodelan.
